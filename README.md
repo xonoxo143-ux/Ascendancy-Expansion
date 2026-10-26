@@ -1,3 +1,9 @@
+# Ascendancy Expansion fork
+
+This is an unofficial working fork of DonovanDMC/ProjectExpansion. See [fork policy and release workflow](ASCENDANCY_FORK.md). Original MIT license and copyright are retained; upstream README follows.
+
+---
+
 # Project Expansion
 An unofficial expansion of [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte).
 ## This mod is not officially supported or endorsed by ProjectE

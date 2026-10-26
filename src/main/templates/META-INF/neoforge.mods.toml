@@ -1,14 +1,14 @@
 modLoader = "javafml"
 loaderVersion = "${loader_version_range}"
-issueTrackerURL = "https://github.com/DonovanDMC/ProjectExpansion/issues"
+issueTrackerURL = "https://github.com/xonoxo143-ux/Ascendancy-Expansion/issues"
 license = "${mod_license}"
 
 [[mods]]
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-updateJSONURL = "https://raw.githubusercontent.com/DonovanDMC/ProjectExpansion/1.21.1/updates.json"
-displayURL = "https://github.com/DonovanDMC/ProjectExpansion"
+
+displayURL = "https://github.com/xonoxo143-ux/Ascendancy-Expansion"
 logoFile= "icon.png"
 authors = "${mod_authors}"
 description = '''${mod_description}'''
