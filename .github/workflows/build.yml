@@ -26,7 +26,7 @@ jobs:
       - name: Build NeoForge mod
         run: |
           chmod +x gradlew scripts/generate-assets.sh
-          ./gradlew --no-daemon --stacktrace build
+          ./gradlew --no-daemon --stacktrace build -x signJar
       - name: Stage JAR with checksum
         shell: bash
         run: |

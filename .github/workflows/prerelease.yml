@@ -34,7 +34,7 @@ jobs:
       - name: Build release JAR
         run: |
           chmod +x gradlew scripts/generate-assets.sh
-          ./gradlew --no-daemon --stacktrace build
+          ./gradlew --no-daemon --stacktrace build -x signJar
       - name: Stage release with checksum
         shell: bash
         run: |

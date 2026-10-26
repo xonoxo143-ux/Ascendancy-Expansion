@@ -30,3 +30,9 @@ the Dell is the Minecraft runtime test machine. The first feature under
 consideration is restoration of classic Final Star duplication. It is not
 implemented or enabled by this infrastructure change. The much larger idea of
 combining dozens of mods is explicitly out of scope.
+
+## Build note: upstream signing task
+The upstream Gradle build finalizes JAR creation with its private `signJar` task.
+Our Actions build explicitly excludes `signJar` because we do not possess or use
+the upstream author's private signing credentials. This produces an unsigned,
+reproducibly identified, SHA256-checksummed JAR without trying to sign it.
